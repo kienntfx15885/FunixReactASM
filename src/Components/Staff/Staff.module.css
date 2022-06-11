@@ -1,0 +1,94 @@
+.staffBtn {
+    color: red;
+    text-align: center;
+}
+
+.divWrapper {
+    width: 100%;
+}
+
+.link {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: red;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.staffBtn {
+    width: 90%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.userWrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.userName {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    text-decoration: none;
+}
+
+
+
+.divUser {
+
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 32px;
+    overflow: hidden;
+}
+
+.divUser:hover .linkUser {
+    color: red
+}
+
+
+.imgStaff {
+    width: 100%;
+    max-height: 150px;
+
+}
+
+.linkUser {
+    font-size: 16px;
+    color: black;
+}
+
+.wrapDiv {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.bigImg {
+    width: 200px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.objDiv {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.objName {
+    margin: 10px 0;
+}
