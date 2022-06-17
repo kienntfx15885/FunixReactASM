@@ -1,0 +1,49 @@
+.userName {
+  width: 100%;
+  min-height: 100px;
+  height: 100%;
+}
+
+.divUser {
+  width: 90%;
+  min-height: 150px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.imgStaff {
+  width: 100%;
+  height: 30%;
+  max-height: 100px;
+}
+
+.linkUser {
+  font-size: 1.6rem;
+  color: var(--text-color);
+  margin-top: 15px;
+
+  &:hover {
+    color: red;
+  }
+}
+
+.bigImg {
+  width: 200px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.objDiv {
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.objName {
+  margin: 10px 0;
+}
